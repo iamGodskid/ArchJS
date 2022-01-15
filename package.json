@@ -1,0 +1,27 @@
+{
+  "name": "archjs",
+  "version": "1.0.0",
+  "description": "A promise based javascript library for sending ajax request",
+  "main": "dist/arch,js",
+  "scripts": {
+    "test": "start arch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamGodskid/ArchJS.git"
+  },
+  "keywords": [
+    "ArchJS",
+    "Ajax",
+    "http",
+    "request",
+    "library",
+    "javascript"
+  ],
+  "author": "Uzodimma Joseph",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamGodskid/ArchJS/issues"
+  },
+  "homepage": "https://github.com/iamGodskid/ArchJS#readme"
+}
