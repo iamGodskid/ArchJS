@@ -19,4 +19,21 @@ contentType: "application/json"
 .then(res=>{
 console.log(res);
 })
+
+
+//posting to server
+const xml=new Arch();
+xml.req("POST", {
+url: "store.php",//any server script
+data: {
+text: "hello",
+}
+})
+.then(res=>{
+console.log(res)
+})
+
+/*data value can be null or empty if youre trying to read from a server 
+with post method else data must be object*/
+
 ```
