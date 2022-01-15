@@ -44,8 +44,8 @@ xml.onreadystatechange=function(){
       request(response);
   }
 }
-
-if(options.data && typeof options.data === "object"){
+const da = opt.data;
+if(da){
   xml.send(JSON.stringify(data));
 }else if(options.data == null || ""){
   xml.send();
