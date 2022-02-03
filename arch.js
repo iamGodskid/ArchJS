@@ -46,7 +46,7 @@ xml.onreadystatechange=function(){
 }
 const da = opt.data;
 if(da){
-  xml.send(JSON.stringify(data));
+  xml.send(JSON.stringify(da));
 }else if(options.data == null || ""){
   xml.send();
 }else{
